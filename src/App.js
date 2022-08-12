@@ -26,7 +26,7 @@ class App extends Component {
 
         return (
             <div className="container">
-                <Table />
+                <Table characters={characters}/>
             </div>
         )
     }
